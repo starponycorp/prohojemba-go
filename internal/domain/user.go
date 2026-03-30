@@ -15,5 +15,5 @@ type User struct {
 	Username       string
 	ViewName       string
 	HashedPassword string
-	Permission     Permissions
+	Permissions    Permissions
 }
