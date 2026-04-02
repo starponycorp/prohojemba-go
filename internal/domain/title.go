@@ -9,12 +9,10 @@ const (
 )
 
 type Title struct {
-	Id        uint
-	Name      string
-	CoverUrl  string
-	Type      TitleType
-	Publisher Publisher
-	Tags      []Tag
-	Platforms []Platform
-	Status    TitleState
+	Id       uint
+	Name     string
+	CoverUrl string
+	Type     TitleType
+	Tags     []Tag
+	Status   TitleState
 }
